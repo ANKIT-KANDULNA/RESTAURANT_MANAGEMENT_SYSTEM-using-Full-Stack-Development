@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Food Delish</title>
+  <link rel="stylesheet" href="/index.css">
+  <script src="/scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>FOOD DELiSH</h1>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">MENU</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+      <ul>
+        <li><a href="/signin" id="signinBtn">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="sections">
+    <div class="menu-section">
+      <h2>OUR MENU</h2>
+      <div class="category">
+        <h3>Main Dishes:</h3>
+        <div class="items">
+
+          <div class="menu-items">
+            <h3>Veg. Thali</h3>
+            <p>Rs.199</p>
+            <img src="/veg thali.jpeg" alt="" height="150" width="200">
+            <label for="qty-vegthali">Quantity:</label>
+            <input type="number" id="qty-vegthali" min="1" value="1" />
+            <button onclick="orderDish('Veg Thali',199,'qty-vegthali')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Aloo Parantha</h3>
+            <p>Rs.59</p>
+            <img src="/aloo parantha.jpeg" alt="" height="150" width="200">
+            <label for="qty-aloopara">Quantity:</label>
+            <input type="number" id="qty-aloopara" min="1" value="1" />
+            <button onclick="orderDish('Aloo Parantha',149,'qty-aloopara')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Rajma Chawal</h3>
+            <p>Rs.79</p>
+            <img src="/rajma chawal.jpeg" alt="" height="150" width="200">
+            <label for="qty-rajmachaw">Quantity:</label>
+            <input type="number" id="qty-rajmachaw" min="1" value="1">
+            <button onclick="orderDish('Rajma Chawal',79,'qty-rajmachaw')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Chole Bhature</h3>
+            <p>Rs.99</p>
+            <img src="/chole bhature.jpeg" alt="" height="150" width="200">
+            <label for="qty-chole">Quantity:</label>
+            <input type="number" id="qty-chole" min="1" value="1" />
+            <button onclick="orderDish('Chole Bhature',79,'qty-chole')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Masala Dosa</h3>
+            <p>Rs.99</p>
+            <img src="/masala dosa.jpeg" alt="" height="150" width="200">
+            <label for="qty-dosa">Quantity:</label>
+            <input type="number" id="qty-dosa" min="1" value="1">
+            <button onclick="orderDish('Masala Dosa',99,'qty-dosa')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Shahi Paneer</h3>
+            <p>Rs.149</p>
+            <img src="/shahi paneer.jpeg" alt="" height="150" width="200">
+            <label for="qty-paneer">Quantity:</label>
+            <input type="number" id="qty-paneer" min="1" value="1">
+            <button onclick="orderDish('Shahi Paneer',149,'qty-paneer')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Veg. Biryani</h3>
+            <p>Rs.159</p>
+            <img src="/veg biryani.jpeg" height="150" width="200" alt="">
+            <label for="qty-biryani">Quantity:</label>
+            <input type="number" id="qty-biryani" min="1" value="1">
+            <button onclick="orderDish('Veg Biryani',159,'qty-biryani')">Order Now</button>
+          </div>
+
+          <div class="menu-items">
+            <h3>Samosa</h3>
+            <p>Rs.39</p>
+            <img src="/samosa.jpeg" height="150" width="200" alt="">
+            <label for="qty-samosa">Quantity:</label>
+            <input type="number" id="qty-samosa" min="1" value="1">
+            <button onclick="orderDish('Samosa',39,'qty-samosa')">Order Now</button>
+          </div>
+
+        </div>
+        <h3>Desserts:</h3>
+        <div class="items">
+          
+          <div class="menu-items">
+            <h3>Jalebi</h3>
+            <p>Rs.49</p>
+            <img src="/jalebi.jpeg" alt="" height="150" width="200">
+            <label for="qty-jalebi">Quantity:</label>
+            <input type="number" id="qty-jalebi" min="1" value="1">
+            <button onclick="orderDish('Jalebi',49,'qty-jalebi')">Order Now</button>
+         </div>
+  
+         <div class="menu-items">
+          <h3>Gulab Jamun</h3>
+          <p>Rs.49</p>
+          <img src="/gulab jamun.jpeg" height="150" width="200" alt="">
+          <label for="qty-gulab">Quantity:</label>
+          <input type="number" id="qty-gulab" min="1" value="1">
+          <button onclick="orderDish('Gulab Jamun',49,'qty-gulab')">Order Now</button>
+         </div>
+  
+         <div class="menu-items">
+          <h3>Rasmalai</h3>
+          <p>Rs.49</p>
+          <img src="/rasmalai.jpeg" height="150" width="200" alt="">
+          <label for="qty-rasmalai">Quantity:</label>
+          <input type="number" id="qty-rasmalai" min="1" value="1">
+          <button onclick="orderDish('Rasmalai',49,'qty-rasmalai')">Order Now</button>
+         </div>
+
+         <div class="menu-items">
+          <h3>Ice Cream</h3>
+          <p>Rs.79</p>
+          <img src="/ice cream.jpeg"  height="150" width="150" alt="">
+          <label for="qty-icecream">Quantity:</label>
+          <input type="number" id="qty-icecream" min="1" value="1">
+          <button onclick="orderDish('Ice Cream',79,'qty-icecream')">Order Now</button> 
+         </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="bill-section">
+      <h2>Bill:</h2>
+      <table id="billTable" border="1" cellpadding="5">
+        <thead>
+          <tr>
+            <th>Dish</th>
+            <th>Qty</th>
+            <th>Price(each)</th>
+            <th>Remove One</th>
+            <th>Remove All</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <button onclick="calculateTotal()">Get Total</button>
+      <p>Total Amount: <span id="totalAmount">0</span></p>
+    
+      <!-- Add Payment Option -->
+      <div id="paymentSection" style="display:none;">
+        <h3>Select Payment Method</h3>
+        <button onclick="makePayment('cash')">Cash</button>
+        <button onclick="makePayment('online')">Online</button>
+      </div>
+    
+      <!-- Add Feedback Section -->
+      <div id="feedbackSection" style="display:none;">
+        <h3>Provide Feedback</h3>
+        <textarea id="feedbackMessage" placeholder="Write your feedback here..."></textarea><br>
+        <button onclick="submitFeedback()">Submit Feedback</button>
+      </div>
+    
+      <!-- Add Feedback Button -->
+      <button id="feedbackButton" style="display:none;" onclick="showFeedbackForm()">Give Feedback</button>
+    </div>    
+  </div>
+</body>
+</html>
