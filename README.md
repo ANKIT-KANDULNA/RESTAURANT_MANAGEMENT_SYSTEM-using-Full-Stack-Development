@@ -10,20 +10,20 @@ First of all install all necessary things like node_modules dependencies using "
    
   ![image](https://github.com/user-attachments/assets/c93f743d-0b1d-447c-9ccc-4c55b001d8d7)
 
-3) You will see something like this.
+2) You will see something like this.
    
   ![image](https://github.com/user-attachments/assets/6830f647-6a36-4b5e-ba64-a962fa2760bb)
 
-4) Click on Sign IN on the top right and you can redirected to sigin page and server will also be updated
+3) Click on Sign IN on the top right and you can redirected to sigin page and server will also be updated
    
    ![image](https://github.com/user-attachments/assets/1fd3e43a-a7ec-4740-8af6-8110cb0cbcca)
 
-5) Sign up using random username and password, ensure that the data has been updated in the Users table
+4) Sign up using random username and password, ensure that the data has been updated in the Users table
 
    ![image](https://github.com/user-attachments/assets/f0e2aa26-d99f-4294-abc1-b9794779a481)
 
 
 
-7) A pop up should be appearing after getting total by clicking: i) Payment mode ii) Submit Feedback
+5) A pop up should be appearing after getting total by clicking: i) Payment mode ii) Submit Feedback
    
    ![image](https://github.com/user-attachments/assets/ddbbc7b2-6652-47d1-8e70-5bf8d20eb982)
